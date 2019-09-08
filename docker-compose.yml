@@ -3,6 +3,7 @@ version: '3'
 services:
    oracledb:
      build: ./oracle-19.3
+     container_name: oracledb
      ports:
       - "1521:1521"
 
