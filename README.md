@@ -1,5 +1,5 @@
 # ambiente-php7.2-oracle
-Ambiente PHP 7.2 com extensão oci8 (Oracle) e build da imagem Oracle em Docker
+Ambiente PHP 7.2 com extensão oci8 (Oracle) e build da imagem Oracle DB em Docker
 
 **Premissas:** Ter o Docker e Docker-compose instalados
 
