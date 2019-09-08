@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+   oracledb:
+     build: ./oracle-19.3
+     ports:
+      - "1521:1521"
+
+   php7-oci8:
+     depends_on:
+       - oracledb
+     build: ./php7-oci8
+     container_name: php7-oci8
+     volumes:
+      - ./www:/var/www/html
+     ports:
+      - "80:80"
